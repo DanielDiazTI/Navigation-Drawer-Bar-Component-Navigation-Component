@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/id_home_fragment"
+        android:title="Inicio"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/id_search_Fragment"
+        android:title="Buscar"
+        android:icon="@drawable/ic_search"/>
+
+    <item
+        android:id="@+id/id_discount_Fragment"
+        android:title="Descuento"
+        android:icon="@drawable/ic_discount"/>
+
+</menu>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/id_home_fragment">
+
+    <fragment
+        android:id="@+id/id_home_fragment"
+        android:name="com.example.menu_drawer_component.Fragments.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/id_perfile_fragment"
+        android:name="com.example.menu_drawer_component.Fragments.ProfileFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/id_setting_fragment"
+        android:name="com.example.menu_drawer_component.Fragments.SettingsFragment"
+        android:label="Configuración"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/id_search_Fragment"
+        android:name="com.example.menu_drawer_component.Fragments.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/id_discount_Fragment"
+        android:name="com.example.menu_drawer_component.Fragments.DiscountFragment"
+        android:label="Descuento"
+        tools:layout="@layout/fragment_discount" />
+</navigation>
